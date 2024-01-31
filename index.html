@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tremind Solution</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./tresmindsolutions_logo.png" alt="" class="css" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <main>
+      <section class="welcome">
+        <h2>Welcome to Our Website!</h2>
+        <p>
+          This is a simple and responsive webpage created using HTML and CSS.
+        </p>
+      </section>
+      <section class="flex">
+        <img
+          src="https://images.pexels.com/photos/11167646/pexels-photo-11167646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="" />
+        <div>
+          <h3>Pexels Online Image</h3>
+          <p>This image is design purpose only Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            explicabo. Sint explicabo corporis necessitatibus optio perspiciatis alias minus voluptatum quas.</p>
+        </div>
+      </section>
+      <section class="flex">
+        <img
+          src="https://images.pexels.com/photos/998642/pexels-photo-998642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="" />
+        <div>
+          <h3>Pexels Online Image</h3>
+          <p>This image is design purpose only Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            explicabo. Sint explicabo corporis necessitatibus optio perspiciatis alias minus voluptatum quas.</p>
+        </div>
+      </section>
+
+      <section class="flex">
+        <img
+          src="https://images.pexels.com/photos/2324423/pexels-photo-2324423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="" />
+        <div>
+          <h3>Section 3</h3>
+          <p>This image is design purpose only Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            explicabo. Sint explicabo corporis necessitatibus optio perspiciatis alias minus voluptatum quas.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <section aria-label="Newest Photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">
+        <i class="fa-solid fa-less-than" style="color: #ffffff;"></i>
+      </button>
+      <button class="carousel-button next" data-carousel-button="next">
+        <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i>
+      </button>
+      <div class="display">
+        <button class="btn-toggle" onclick="myText()">Show or Hide</button>
+        <div id="show" style="display: none;">
+          Welcome to Tresmind Solution
+        </div>
+      </div>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img
+            src="https://images.pexels.com/photos/11167646/pexels-photo-11167646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img
+            src="https://images.pexels.com/photos/998642/pexels-photo-998642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img
+            src="https://images.pexels.com/photos/2324423/pexels-photo-2324423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Nature Image #3">
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <p>Contact us at: daniyalmuhammadsajid@gmail.cm | Phone:+923272153650</p>
+    <div class="icon">
+      <i class="fa-brands fa-google"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+  </footer>
+  <div class="last">
+    <p>Design By Daniyal</p>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
